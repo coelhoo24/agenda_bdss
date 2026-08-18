@@ -82,9 +82,39 @@ namespace Projeto_Agenda.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap homemaranha {
+            get {
+                object obj = ResourceManager.GetObject("homemaranha", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap homemaranha1 {
+            get {
+                object obj = ResourceManager.GetObject("homemaranha1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap papaiz {
             get {
                 object obj = ResourceManager.GetObject("papaiz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap splashh {
+            get {
+                object obj = ResourceManager.GetObject("splashh", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

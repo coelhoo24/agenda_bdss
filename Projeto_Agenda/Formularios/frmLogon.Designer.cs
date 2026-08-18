@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblUsuario = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
@@ -37,23 +36,15 @@
             this.btnOK = new System.Windows.Forms.Button();
             this.btnCancelar = new System.Windows.Forms.Button();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Projeto_Agenda.Properties.Resources.papaiz;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 31);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(197, 145);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // lblUsuario
             // 
             this.lblUsuario.AutoSize = true;
+            this.lblUsuario.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.lblUsuario.Location = new System.Drawing.Point(228, 47);
             this.lblUsuario.Name = "lblUsuario";
             this.lblUsuario.Size = new System.Drawing.Size(43, 13);
@@ -89,7 +80,7 @@
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(56, 20);
             this.btnOK.TabIndex = 5;
-            this.btnOK.Text = "Óka";
+            this.btnOK.Text = "Ok";
             this.btnOK.UseVisualStyleBackColor = true;
             this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
             // 
@@ -107,13 +98,23 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Projeto_Agenda.Properties.Resources.homemaranha;
+            this.pictureBox1.Location = new System.Drawing.Point(43, 32);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(104, 129);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // frmLogon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Fuchsia;
+            this.BackColor = System.Drawing.Color.RosyBrown;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(527, 205);
+            this.ClientSize = new System.Drawing.Size(513, 205);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.txtSenha);
@@ -124,8 +125,8 @@
             this.Name = "frmLogon";
             this.Text = "frmLogon";
             this.Load += new System.EventHandler(this.frmLogon_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
